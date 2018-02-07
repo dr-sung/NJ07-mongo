@@ -1,0 +1,18 @@
+{
+  "name": "nj07-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "findAll.js",
+  "dependencies": {
+    "mongodb": "^2.2.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "insert": "node insert.js",
+    "find": "node findAll.js",
+    "update": "node update.js",
+    "delete": "node delete.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
