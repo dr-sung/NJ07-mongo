@@ -10,7 +10,7 @@ const url = 'mongodb://' + userUri + ':'+passUri +
             
 // object to insert
 const obj = {
-    name: 'rSue', age: 22, gpa: 2.99
+    name: 'Sue', age: 22, gpa: 3.99
 };
 
 client.connect(url, {poolSize: 20}, (err, db) => {
